@@ -1,4 +1,4 @@
-import {Post, Button} from './Components'
+import { Post } from './components/Post'
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 
@@ -14,7 +14,8 @@ function App() {
           <Sidebar/>
           <main>
             <Post author="Fernando" content="Um texto qualquer"/>
-            <Button/>
+            <Post author="Fernando" content="Um texto qualquer"/>
+            <Post author="Fernando" content="Um texto qualquer"/>
           </main>
         </div>
       </div>
