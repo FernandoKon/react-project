@@ -1,9 +1,11 @@
-import styles from './Header.module.css'
+import styles from './Header.module.css';
+
+import labLogo from '../assets/lab-logo.svg';
 
 export function Header() {
     return (
         <header className={styles.header}>
-            <strong >Lab2Dev</strong>
+            <img src={labLogo} alt="logo da lab2dev" ></img>
         </header>
     );
 }
